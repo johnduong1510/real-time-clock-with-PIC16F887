@@ -1,0 +1,63 @@
+
+ROM used:   1332/8192 (16%)
+            1332/8192 (16%) including unused fragments
+
+            1.2 Average locations per line
+            5.3 Average locations per statement
+
+RAM used:   39/368 (11%) at main() level
+            50/368 (14%) worst case
+
+Stack used: 6 worst case (3 in main + 3 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  356   251 100  dongho_baothuc.c
+  768     0   0  C:\Program Files (x86)\PICC\Devices\16F887.H
+----- -----
+ 1124   251 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     69   5    3             @I2C_READ_1
+0     74   6    1             @I2C_WRITE_1
+0     20   2    1             @delay_ms1
+0    117   9    0   154  1.8  DOC_THOI_GIAN_REALTIME
+0     29   2    2   264  4.3  xuat_1byte
+0     37   3    1    94  1.7  blink
+0     55   4    4   331  1.9  xuat_4led_7doan
+0     75   6    0    94  1.3  SET_TIME_DS1307
+0     57   4    3   725  6.9  CONVERT_TO_BCD
+0    120   9    1   380  3.3  MODE_SETTING
+ Inline         1  1004  5.8  MODE_UP
+ Inline         1  1283  5.9  MODE_DOWN
+0     97   7    2   502  3.3  RING_ALARM
+0     50   4    1   287  5.1  CONVERT_TIME_FROM_DS1307
+0    373  28    1  1495  6.8  XULY_NUTNHAN
+0    103   8    1   436  4.7  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               13
+    Statements              251
+    Comments                158
+    Volume (V)              11098
+    Difficulty (D)          52.6
+    Effort to implement (E) 583903
+    Time to implement (T)   9 hours, 1 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   44
+    Maintainability (MI)    49
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00037    52  0  
+00038-007FF  1276  716  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

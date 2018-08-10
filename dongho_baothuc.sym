@@ -1,0 +1,150 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @TRIS_C
+029     GIO_CHUC
+02A     GIO_DONVI
+02B     PHUT_CHUC
+02C     PHUT_DONVI
+02D     PHUT_DS1307
+02E     GIO_DS1307
+02F     PHUT_HIENTAI
+030     GIO_HIENTAI
+031     PHUT_HENGIO
+032     GIO_HENGIO
+033-03C Ma7D
+03D.0   TTCT
+03D.1   ALRM
+03E     COUNT_SETTING
+03F     BDN
+040     L
+041     blink.@SCRATCH1
+041     MODE_SETTING.@SCRATCH1
+041     RING_ALARM.@SCRATCH1
+041     MAIN.@SCRATCH1
+042     RING_ALARM.@SCRATCH2
+047     @I2C_WRITE_1.P1
+047     @delay_ms1.P2
+047     @I2C_READ_1.P3
+047     xuat_4led_7doan.led_h_chuc
+047     CONVERT_TO_BCD.PHUT_HIENTAI
+047     MODE_UP.@SCRATCH1
+047     MODE_DOWN.@SCRATCH1
+047     CONVERT_TIME_FROM_DS1307.@SCRATCH1
+047     XULY_NUTNHAN.@SCRATCH1
+048     xuat_4led_7doan.led_h_dv
+048     CONVERT_TO_BCD.GIO_HIENTAI
+048     @I2C_READ_1.@SCRATCH1
+049     xuat_4led_7doan.led_m_chuc
+049     CONVERT_TO_BCD.UPDW
+049     @I2C_READ_1.@SCRATCH2
+04A     xuat_4led_7doan.led_m_dv
+04B     xuat_1byte.bytexuat
+04B.7   xuat_1byte.BSER
+04C     xuat_1byte.i
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07F     @INTERRUPT_AREA
+0FF     @INTERRUPT_AREA
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+17F     @INTERRUPT_AREA
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+47F     @INTERRUPT_AREA
+4FF     @INTERRUPT_AREA
+57F     @INTERRUPT_AREA
+5FF     @INTERRUPT_AREA
+67F     @INTERRUPT_AREA
+6FF     @INTERRUPT_AREA
+77F     @INTERRUPT_AREA
+7FF     @INTERRUPT_AREA
+87F     @INTERRUPT_AREA
+8FF     @INTERRUPT_AREA
+97F     @INTERRUPT_AREA
+9FF     @INTERRUPT_AREA
+A7F     @INTERRUPT_AREA
+AFF     @INTERRUPT_AREA
+B7F     @INTERRUPT_AREA
+BFF     @INTERRUPT_AREA
+C7F     @INTERRUPT_AREA
+CFF     @INTERRUPT_AREA
+D7F     @INTERRUPT_AREA
+DFF     @INTERRUPT_AREA
+E7F     @INTERRUPT_AREA
+EFF     @INTERRUPT_AREA
+F7F     @INTERRUPT_AREA
+FFF     @INTERRUPT_AREA
+
+ROM Allocation:
+000038  @I2C_WRITE_1
+000082  @I2C_READ_1
+0000C7  DOC_THOI_GIAN_REALTIME
+00013C  CONVERT_TIME_FROM_DS1307
+00016E  @delay_ms1
+000182  CONVERT_TO_BCD
+0001BB  SET_TIME_DS1307
+000206  xuat_1byte
+000223  xuat_4led_7doan
+00025A  XULY_NUTNHAN
+000287  MODE_UP
+000307  MODE_DOWN
+0003CF  MODE_SETTING
+000447  blink
+00046C  RING_ALARM
+0004CD  MAIN
+0004CD  @cinit1
+0004E5  @cinit2
+
+Project Directory:
+    F:\do_an_1\do_an_dong_ho_bao_thuc\do_an_dong_ho_bao_thuc\
+
+Project Files:
+    dongho_baothuc.c                                        [27-Apr-16 23:23  CRC=525FE07C]
+    C:\Program Files (x86)\PICC\Devices\16F887.H            [12-Nov-13 14:35  CRC=6CB1A611]
+
+Source signature=2BC32C9E
+
+Units:
+    dongho_baothuc (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   dongho_baothuc.xsym
+    Errors:      dongho_baothuc.err
+    Ext Symbols: dongho_baothuc.esym
+    INHX8:       dongho_baothuc.hex
+    Symbols:     dongho_baothuc.sym
+    List:        dongho_baothuc.lst
+    Debug/COFF:  dongho_baothuc.cof
+    Project:     dongho_baothuc.ccspjt
+    Call Tree:   dongho_baothuc.tre
+    Statistics:  dongho_baothuc.STA

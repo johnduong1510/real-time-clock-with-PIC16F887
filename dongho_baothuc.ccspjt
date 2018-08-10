@@ -1,0 +1,22 @@
+[PROJECT]
+Target=dongho_baothuc.hex
+Processor_Text=PIC16F887
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=dongho_baothuc.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\DriversC:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\;C:\Program Files (x86)\PICC\Drivers\C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\C:\Program Files (x86)\PICC\Devices\C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\C:\Program Files (x86)\PICC\Devices\C:\Program Files (x86)\PICC\Devices\C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\C:\Program Files (x86)\PICC\Devices\C:\Program Files (x86)\PICC\Devices\C:\Program Files (x86)\PICC\Devices\C:\Program Files (x86)\PICC\Devices\
+[dongho_baothuc.c]
+Type=4
+[mru-list]
+1=dongho_baothuc.c
+[Opened Files]
+1=..\..\test_quet\pp_quet.c
+2=..\..\..\Thuc_tap_Vi_Xu_Ly\MODULE LED7DOAN QUET\BAI_515_GIO_PHUT_GIAY_KEY.c
+3=dongho_baothuc.c
+4=C:\Program Files (x86)\PICC\Devices\16F887.H
+5=
+[Units]
+Count=1
+1=dongho_baothuc (main)
